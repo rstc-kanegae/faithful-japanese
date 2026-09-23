@@ -2,9 +2,9 @@
 
 Use this format for `GLOSSARY.md`.
 
-## Goals
+## Purpose
 
-The glossary exists to make technical and project vocabulary easy to find with ordinary text search and easy to reuse across later work.
+The glossary exists to maintain shared vocabulary between the AI and human readers. It is not limited to rewritten documents. Update it whenever normal conversation, technical explanation, project work, reports, or generated documents introduce technical terms, abbreviations, or project-specific vocabulary.
 
 ## File rules
 

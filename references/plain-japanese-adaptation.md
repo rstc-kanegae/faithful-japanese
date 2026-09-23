@@ -1,17 +1,17 @@
-# Plain Japanese adaptation for AI work output
+# Plain Japanese adaptation for human-facing AI output
 
-This reference adapts plain-language principles for AI-generated Japanese. The governing rule is semantic fidelity: readability rules may improve expression, but they must never alter the underlying meaning.
+This reference adapts plain-language principles for Japanese responses produced by AI assistants. The governing rule is semantic fidelity: readability rules may improve expression, but they must never alter the underlying meaning.
 
-Reference inspiration: Japan Association of Plain Language, "プレインジャパニーズとは" and "9のガイドラインと分析".
+Reference inspiration: Japan Association of Plain Language, "プレインジャパニーズとは" and its guidance pages.
 
 - https://japl9.org/plainjapanese/
 - https://japl9.org/plainjapanese/j10rules-analysis/
 
 ## Adapted rules
 
-### 1. Identify the reader
+### 1. Write for the actual human reader
 
-Assume the reader is intelligent but may not share the model's internal shorthand or all domain vocabulary. Do not assume that a technical reader knows project-specific abbreviations.
+Assume the reader is intelligent but may not share the model's internal shorthand, latent associations, or project-specific vocabulary. Do not assume that a technical reader automatically knows local abbreviations.
 
 ### 2. State the main point early when safe
 
@@ -47,12 +47,15 @@ Reorder or split a sentence to reduce cognitive load, provided the modification 
 
 ## Additional AI-specific rules
 
-Plain-language guidance alone is not sufficient for AI work output. Also enforce the following:
+Plain-language guidance alone is not sufficient for human-facing AI output. Also enforce the following:
 
+- Apply the rules to the initial response, not only when rewriting existing text.
 - Do not compress prose into note-like fragments.
 - Do not coin abbreviations for one-off use.
 - Do not hide uncertainty behind assertive prose.
 - Do not silently resolve ambiguity.
 - Do not replace precise domain terms with broad everyday words if precision is lost.
 - Preserve exact identifiers, filenames, commands, API names, protocol names, version numbers, and proper nouns.
-- Maintain terminology consistently across the entire output and glossary.
+- Maintain terminology consistently across the response and glossary.
+- Explain relationships that would otherwise exist only implicitly in the model's reasoning.
+- Do not confuse short output with clear output.
